@@ -27,6 +27,14 @@ const pinyon = Pinyon_Script({
 export const metadata: Metadata = {
   title: "HAIR BANDS | Premium Wigs & Hair Care",
   description: "Luxury authentic human hair wigs, extensions and styling services.",
+  icons: {
+    icon: [
+      { url: '/images/HAIR BANDS favicon-01.png', type: 'image/png' },
+      { url: '/favicon.png', type: 'image/png' }
+    ],
+    shortcut: '/images/HAIR BANDS favicon-01.png',
+    apple: '/images/HAIR BANDS favicon-01.png',
+  },
 };
 
 export const viewport: Viewport = {

@@ -23,7 +23,17 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 pb-16 border-b border-luxury-cream/10">
           
           {/* Brand Statement */}
-          <div className="space-y-4 max-w-md">
+          <div className="space-y-5 max-w-md">
+            <Link href="/" className="inline-block">
+              <div className="p-3 bg-luxury-cream rounded-md inline-flex items-center justify-center shadow-lg border border-luxury-champagne/30 hover:opacity-95 transition-opacity">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="/images/HAIR BANDS logo-01.png"
+                  alt="Hair Bands Logo"
+                  className="h-12 sm:h-14 w-auto object-contain"
+                />
+              </div>
+            </Link>
             <h3 className="font-serif text-2xl tracking-[0.2em] uppercase text-luxury-cream">
               Hair Bands
             </h3>

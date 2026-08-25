@@ -110,14 +110,24 @@ export const Navbar: React.FC = () => {
         {/* Brand Logo - Asymmetric Center */}
         <Link 
           href="/" 
-          className="flex flex-col items-center select-none"
+          className="flex items-center space-x-2.5 select-none group"
         >
-          <span className="font-serif text-xl sm:text-2xl tracking-[0.25em] font-medium text-luxury-espresso uppercase">
-            Hair Bands
-          </span>
-          <span className="font-script text-base text-luxury-champagne tracking-wider mt-[-2px] lowercase leading-none">
-            beauté
-          </span>
+          <div className="h-8 w-8 rounded-full overflow-hidden p-0.5 bg-luxury-cream border border-luxury-champagne/40 flex items-center justify-center shadow-xs">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img 
+              src="/images/HAIR BANDS favicon-01.png" 
+              alt="Hair Bands" 
+              className="h-full w-full object-contain"
+            />
+          </div>
+          <div className="flex flex-col items-start">
+            <span className="font-serif text-lg sm:text-2xl tracking-[0.25em] font-medium text-luxury-espresso uppercase group-hover:text-luxury-chocolate transition-colors leading-tight">
+              Hair Bands
+            </span>
+            <span className="font-script text-sm sm:text-base text-luxury-champagne tracking-wider mt-[-2px] lowercase leading-none">
+              beauté
+            </span>
+          </div>
         </Link>
 
         {/* Right Nav Icons */}

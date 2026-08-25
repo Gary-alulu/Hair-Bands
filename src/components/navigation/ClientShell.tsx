@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 import MobileNav from './MobileNav';
 import Footer from './Footer';
 import CartDrawer from './CartDrawer';
+import { IntroSplash } from '@/components/common/IntroSplash';
 
 export const ClientShell: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const pathname = usePathname();
@@ -19,6 +20,7 @@ export const ClientShell: React.FC<{ children: React.ReactNode }> = ({ children 
 
   return (
     <div className="min-h-screen flex flex-col">
+      <IntroSplash />
       {showCustomerLayout && <Navbar />}
       
       <main className="flex-grow">
