@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luxury-chocolate: #3A2118;
+  --color-luxury-coffee: #5A3828;
+  --color-luxury-brown: #795548;
+  --color-luxury-cream: #F6EFE5;
+  --color-luxury-beige: #E8D8C5;
+  --color-luxury-champagne: #D6B98C;
+  --color-luxury-espresso: #211510;
+  
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-inter), sans-serif;
+  --font-script: var(--font-pinyon), cursive;
+}
+
+:root {
+  --background: #F6EFE5;
+  --foreground: #211510;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+/* Custom Utilities for Luxury Feel */
+.calligraphic-accent {
+  font-family: var(--font-pinyon), cursive;
+  font-size: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.editorial-title {
+  font-family: var(--font-cormorant), Georgia, serif;
+}
+
+.luxury-border {
+  border-color: rgba(58, 33, 24, 0.1);
+}
+
+.luxury-border-active {
+  border-color: #3A2118;
+}
+
+.luxury-shadow {
+  box-shadow: 0 4px 20px rgba(58, 33, 24, 0.03);
+}
+
+/* Smooth custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F6EFE5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E8D8C5;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #D6B98C;
+}
