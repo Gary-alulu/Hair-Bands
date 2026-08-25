@@ -115,7 +115,7 @@ export const Navbar: React.FC = () => {
           <div className="h-8 w-8 rounded-full overflow-hidden p-0.5 bg-luxury-cream border border-luxury-champagne/40 flex items-center justify-center shadow-xs">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
-              src="/images/HAIR BANDS favicon-01.png" 
+              src="/favicon.png" 
               alt="Hair Bands" 
               className="h-full w-full object-contain"
             />

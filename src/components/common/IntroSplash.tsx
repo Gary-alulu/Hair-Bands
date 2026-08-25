@@ -72,7 +72,7 @@ export const IntroSplash: React.FC = () => {
 
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <motion.img
-                  src="/images/HAIR BANDS logo-01.png"
+                  src="/images/logo.png"
                   alt="Hair Bands Luxury Logo"
                   initial={{ scale: 0.88, opacity: 0, filter: 'blur(8px)' }}
                   animate={{ scale: 1, opacity: 1, filter: 'blur(0px)' }}
